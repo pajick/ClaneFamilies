@@ -1,0 +1,134 @@
+/*               RESETS                */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/*          END RESETS                  */
+body {
+    background-color: antiquewhite;
+}
+.search {
+    text-align: center;
+}
+b {
+    text-decoration: underline dotted;
+}
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    margin: 0 auto;
+    padding: 2.5em;
+    width: 99dvw;
+    height: fit-content;
+    justify-content: center;
+    background-color: antiquewhite;
+    text-decoration: none;
+}
+
+.card {
+   
+    font-size: 3em;
+    border: 1px solid black;
+    padding: 0.25dvw;
+    width: 1.5em;
+    height: auto;
+    text-align: center;
+   }
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.cards :hover {
+    color:  darkgray;
+    background-color: black;
+}
+.cards :visited {
+    color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 5em;
+    color: gray;
+    padding: 2vh;
+    padding-top: 0.75em;
+}
+
+h1>
+a {
+    color: gray;
+    text-decoration: none;
+}
+h1 > a:hover {
+     background-color: gray;
+     color: antiquewhite;
+     padding: 3dvw;
+     
+     border-radius: 25dvw;
+}
+h2,h3 {
+    margin-left: 2px;
+    padding: 2vh;
+}
+#whit,
+thead {
+    background: #000;
+    color: white;
+    font-weight: 900;
+}
+
+tr {
+    text-align: center;
+}
+
+:nth-child(6 of td) {
+    color: black;
+    font-weight: 900;
+}
+
+tbody th {
+    color: #000;
+    background-color: antiquewhite;
+}
+
+table {
+    width: 99vw;
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    position: relative;
+    text-align: left;
+}
+
+thead th {
+    background-color: #000;
+    color: white;
+    top: 0;
+    position: sticky;
+    z-index: 20;
+}
+.top {
+    padding: 2dvw;
+    font-size: larger;
+}
