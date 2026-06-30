@@ -73,12 +73,8 @@ a {
     text-decoration: none;
 }
 h1 > a:hover {
-     background-color: gray;
-     color: antiquewhite;
-     padding: 3dvw;
-     
-     border-radius: 25dvw;
-}
+     color: black;
+} 
 h2,h3 {
     margin-left: 2px;
     padding: 2vh;
