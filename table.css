@@ -79,6 +79,10 @@ h2,h3 {
     margin-left: 2px;
     padding: 2vh;
 }
+h4 {
+    padding-right: 1em;
+    text-align: center;
+}
 #whit,
 thead {
     background: #000;
