@@ -1,4 +1,4 @@
 import pandas as pd
-df = pd.read_csv('Yy.csv')
+df = pd.read_csv('name_c.csv')
 
-df.to_html('name_y.html')
+df.to_html('name_c.html')
