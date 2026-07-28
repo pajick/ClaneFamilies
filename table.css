@@ -32,6 +32,9 @@ header a {
     margin-right: auto;
     color: grey;
 }
+header a:hover {
+color: black;
+}
 
 #crumbs {
     text-align: center;
