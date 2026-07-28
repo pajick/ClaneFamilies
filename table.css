@@ -32,8 +32,10 @@ header a {
     margin-right: auto;
     color: grey;
 }
-header a:hover {
-color: black;
+header > a:hover {
+color: white;
+background-color: #000;
+font-weight: bold;
 }
 
 #crumbs {
