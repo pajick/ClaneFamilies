@@ -66,28 +66,36 @@ b {
 
 .card {
 
-    font-size: 3em;
+    font-size: 3rem;
     border: 1px solid black;
-    padding: 0.25dvw;
+    padding: .75dvw;
     width: 1.5em;
-    height: auto;
+    height: 1.5em;
     text-align: center;
+    margin: auto 0;
 }
 
-.card a {
+.Mc {
+   padding-left: 0.2dvw;
+}
+
+
+ a {
     text-decoration: none;
     color: black;
 }
+a:hover {
+    color: antiquewhite;
+}
 
-.cards :hover {
-    color: darkgray;
+.card:hover {
     background-color: black;
 }
 
-.cards :visited {
+.card:visited {
     color: black;
 }
-
+ 
 h1 {
     text-align: center;
     font-size: 5em;
