@@ -204,5 +204,5 @@ thead th {
 /* Show the tooltip text on hover */
 .tooltip:hover .tooltiptext {
   visibility: visible;
-  vertical-align: middle;
+  vertical-align: bottom;
 }
