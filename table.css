@@ -47,6 +47,13 @@ font-weight: bold;
     text-align: center;
 }
 
+  .other:hover a{
+    cursor: pointer;
+    background-color: aquamarine;
+    color: darkgreen;
+}
+
+
 b {
     text-decoration: underline dotted;
 }
@@ -182,6 +189,7 @@ thead th {
 }
 
 .tooltip {
+    width:100%;
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black; /* Add dots under the hoverable text */
