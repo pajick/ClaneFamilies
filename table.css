@@ -28,14 +28,19 @@ header a {
     color: black;
     display: inline-block;
     padding: 0.25rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
     color: grey;
 }
-header > a:hover {
+header  a:hover {
 color: white;
 background-color: #000;
 font-weight: bold;
+margin-bottom: 0;
+padding-bottom: 0;
+cursor: pointer;
 }
 
 #crumbs {
@@ -175,13 +180,14 @@ table {
     text-align: left;
 }
 
-thead th {
+thead {
     background-color: #000;
     color: white;
     top: 0;
     position: sticky;
-    z-index: 20;
+    z-index: 999;
 }
+
 
 .top {
     padding: 2dvw;
