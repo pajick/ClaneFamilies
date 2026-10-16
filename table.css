@@ -101,6 +101,9 @@ a {
 a:hover {
     color: antiquewhite;
 }
+th{
+    height: 100%;
+}
 
 .card:hover {
     background-color: black;
@@ -162,6 +165,13 @@ tbody th {
 table {
     width: 99vw;
     margin: 0 auto;
+}
+caption {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align:center;
+    line-height: 1.5;
+margin: 0.5rem;
 }
 
 table,
