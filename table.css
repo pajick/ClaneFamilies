@@ -32,7 +32,7 @@ header a {
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    color: grey;
+ 
 }
 
 header a:hover {
@@ -70,7 +70,7 @@ b {
     gap: 5px;
     margin: 0 auto;
     padding: 2.5em;
-    width: 99dvw;
+    width: 100dvw;
     height: fit-content;
     justify-content: center;
     background-color: antiquewhite;
@@ -163,7 +163,7 @@ tbody th {
 }
 
 table {
-    width: 99vw;
+    width: 100vw;
     margin: 0 auto;
 }
 caption {
