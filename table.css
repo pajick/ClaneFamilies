@@ -204,6 +204,9 @@ thead {
 .top {
     padding: 2dvw;
     font-size: larger;
+    width: 60dvw;
+    text-align: left;
+    margin:auto;
 }
 
 .tooltip {
